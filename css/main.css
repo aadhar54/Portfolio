@@ -1,0 +1,30 @@
+.site-header{
+background-color: aquamarine;
+color:blueviolet;
+ height: 100vh;
+ font-family: monospace;
+ display:flex;
+ flex-direction: column; 
+ justify-content: center; 
+ align-items: center;
+ /*for x axis, this aligns other than main axis */
+}
+body{
+    margin: 0;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    align-self: auto ;
+    /*box-shadow:blueviolet 2px 5px 5px;*/
+}
+
+.site-header-content{
+    margin:10px;
+}
+
+#bnglr{
+    color:blueviolet;
+}
